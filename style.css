@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    /* Posisikan teks di tengah */
+    padding: 10px 0;
+    position: fixed;
+    /* Tempelkan footer di bagian bawah */
+    bottom: 0;
+    /* Berada tepat di bagian bawah layar */
+    width: 100%;
+    /* Membuat lebar footer sama dengan layar */
+    border-top: 1px solid #ccc;
+    /* Garis pemisah atas */
+}
